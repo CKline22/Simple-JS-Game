@@ -10,6 +10,8 @@ body {
     background-color: lightslategray;
 }
 
+
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -44,6 +46,28 @@ button:hover {
     align-items: center;
 }
 
+header {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+#score {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
 .hide {
     display: none;
+}
+
+button.correct {
+background-color: green;
+}
+
+button.wrong {
+background-color: red;
 }
